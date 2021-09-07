@@ -1,3 +1,182 @@
+/*   colour  blue #2196F3   our team bgc #F5F4FA 
+    bgc dark #2F303A    text colour #212121  
+      text colour2  #757575    */
+
+body {
+  color: #757575;
+  font-family: Roboto, sans-serif;
+}
+
 ul {
   list-style: none;
+}
+
+.logo {
+  color: #212121;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav .link {
+  color: #212121;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+nav .link.current {
+  color: #2196f3;
+}
+
+nav .link.kontakt {
+  color: #212121;
+}
+
+nav .link:hover {
+  color: #2196f3;
+}
+
+nav .link:focus {
+  color: #2196f3;
+}
+
+.post {
+  color: #757575;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.post:hover {
+  color: #2196f3;
+}
+
+.post:focus {
+  color: #2196f3;
+}
+
+.number {
+  color: #757575;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.number:hover {
+  color: #2196f3;
+}
+
+.number:focus {
+  color: #2196f3;
+}
+
+.title {
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+}
+
+.headline {
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.caption {
+  color: #212121;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.name {
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #2196f3;
+  font-size: 16px;
+  line-height: 1, 875;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.location {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.note {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.p-name {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+address {
+  font-style: normal;
+}
+
+.footerul a {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+span {
+  color: #2196f3;
+}
+
+.portfolio-button {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-button:hover {
+  background-color: #2196f3;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.portfolio-caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.pfnote {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
 }
