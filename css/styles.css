@@ -95,6 +95,7 @@ nav .link:focus {
   line-height: 1.14;
   letter-spacing: 0.03em;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .headline {
@@ -126,9 +127,17 @@ nav .link:focus {
 .button {
   background-color: var(--accent-color);
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   color: #ffffff;
   cursor: pointer;
+}
+
+.button:hover {
+  background-color: #188ce8;
+}
+
+.button:focus {
+  background-color: #188ce8;
 }
 
 .location {
@@ -170,6 +179,7 @@ span {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .portfolio-button:hover {
